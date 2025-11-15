@@ -1,1 +1,30 @@
-body { background-color: white; padding: 0; margin: 0; } .header{ width: 100%; height: 5rem; background: #018BAA; }
+body {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header bar */
+.header {
+  width: 100%;
+  height: 5rem;              /* Taller header */
+  background: #018BAA;       /* Blue color */
+  color: white;              /* White text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Footer bar */
+.footer {
+  width: 100%;
+  height: 3rem;              /* Smaller than header */
+  background: black;         /* Black footer */
+  color: white;              /* White text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
