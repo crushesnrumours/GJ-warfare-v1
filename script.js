@@ -3,7 +3,7 @@ function downloadFile() {
   const selectedFile = dropdown.value;
 
   if (selectedFile) {
-    // Trigger download (replace with actual file paths)
+    // Replace with actual file paths or server logic
     window.location.href = selectedFile;
   } else {
     alert("Please select a file first!");
